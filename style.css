@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'BarkingCat';
+    src: url(fonts/Barking\ Cat\ DEMO.otf);
+}
+
+@font-face {
+    font-family: 'Handjet';
+    src: url(fonts/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf);
+}
+
+body{
+    background-color: #44475a;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #f1fa8c;
+    text-align: center;
+    font-family: 'BarkingCat';
+    font-size: 8rem;
+}
+
+#dicees{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: #6bd686;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #44475a;
+    font-size: 20px;
+    font-family: 'Handjet';
+}
+
+h2{
+    color: #f8f8f2;
+    font-size: 2rem;
+    font-family: "Varela Round", sans-serif;
+}
