@@ -45,5 +45,10 @@ button{
 h2{
     color: #f8f8f2;
     font-size: 2rem;
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Handjet';
+}
+
+footer{
+    color: #f8f8f2;
+    font-family: "Handjet";
 }
