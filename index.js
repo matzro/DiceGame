@@ -5,10 +5,13 @@ function changeDices(){
     document.getElementById("player2").src = "images/dice" + player2 + ".png";
 
     if(player1 > player2){
-        document.querySelector("h1").innerHTML = "Player 1 wins";
+        document.querySelector("h1").innerHTML = "Cat won";
+    }
+    else if(player1 === player2){
+        document.querySelector("h1").innerHTML = "A draw!";
     }
     else{
-        document.querySelector("h1").innerHTML = "Player 2 wins";
+        document.querySelector("h1").innerHTML = "Dog won";
     }
 }
 
